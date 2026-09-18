@@ -1,0 +1,20 @@
+ decodechunk{
+   select(index.html)
+   addtype(index==application==force)
+   opendatatype(input)
+   gml.load{
+     937502807
+     328587293
+     349728373
+     348723894
+     324723074
+     937502807
+     328587293
+     349728373
+     348723894
+     324723074
+   }
+  gml(xml);{
+  <gml ::app>title==$gtitle</gml>
+  }
+}
