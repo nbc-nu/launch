@@ -2,7 +2,7 @@
    select(index.html)
    addtype(index==application==force)
    opendatatype(input)
-   gml.load{
+   xgml.load{
      937502807
      328587293
      349728373
@@ -15,6 +15,6 @@
      324723074
    }
   gml(xml);{
-  <gml ::app>title==$gtitle</gml>
+  <xgml ::app>title==$gtitle</xgml>
   }
 }
